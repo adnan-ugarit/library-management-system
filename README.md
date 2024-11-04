@@ -34,11 +34,9 @@ bash> mvn spring-boot:run
 
 The API will be available at http://localhost:8080/maids/swagger-ui/index.html
 
-API Endpoints
-Authentication (Optional)
-
+* API Endpoints:
+Authentication
 JWT Authentication requires a valid token for accessing endpoints. First, obtain a token:
-
 Endpoint:
 
     POST /api/auth/login
