@@ -62,3 +62,11 @@ JsonResponse:
 }
 
 Use this token in the Authorization header (e.g., Authorization: Bearer <token>) to access secured endpoints.
+
+- Optional:
+you can access to H2 Database via:
+- http://localhost:8080/maids/h2-console/
+- username: user
+- password: user
+
+Good Luck!
