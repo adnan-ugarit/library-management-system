@@ -39,7 +39,7 @@ Authentication
 JWT Authentication requires a valid token for accessing endpoints. First, obtain a token:
 - Endpoint:
 
-    POST [/api/auth/login](http://localhost:8080/maids/api/v1/auth/authenticate)
+    POST [Login](http://localhost:8080/maids/api/v1/auth/authenticate)
 
 Request Body:
 
