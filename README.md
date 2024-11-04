@@ -1,27 +1,27 @@
-# Library Management System API
+# Library Management System Backend API
 
 This is a Library Management System API built with Spring Boot, providing endpoints for managing books, patrons, and borrowing records.
 
 * Features:
 
-    CRUD operations for books, patrons, and borrowing records
-    Basic authentication using JWT (if implemented)
-    Logging using AOP for key service methods
-    Caching for frequently accessed data
-    Transaction management for data consistency
-    Unit and integration tests
+    - CRUD operations for books, patrons, and borrowing records
+    - Basic authentication using JWT (if implemented)
+    - Logging using AOP for key service methods
+    - Caching for frequently accessed data
+    - Transaction management for data consistency
+    - Unit and integration tests.
 
 * Prerequisites
 
-    Java 17 or higher
-    Maven for dependency management and building
+    - Java 17 or higher
+    - Maven for dependency management and building
 
 * Setup Instructions
 
     Clone the repository:
 
     git clone https://github.com/adnan-ugarit/library-management-system.git
-    cd library-management-system
+    then cd library-management-system
 
 
 * Build the project:
