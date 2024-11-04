@@ -46,12 +46,12 @@ Request Body:
 json
 
 {
-  "username": "admin@maids.cc",
+  "email": "admin@maids.cc",
   "password": "password123"
 }
 or
 {
-  "username": "user@maids.cc",
+  "email": "user@maids.cc",
   "password": "password"
 }
 
