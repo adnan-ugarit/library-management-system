@@ -37,7 +37,7 @@ The API will be available at http://localhost:8080/maids/swagger-ui/index.html
 * API Endpoints:
 Authentication
 JWT Authentication requires a valid token for accessing endpoints. First, obtain a token:
-Endpoint:
+- Endpoint:
 
     POST /api/auth/login
 
@@ -49,15 +49,13 @@ json
   "username": "admin",
   "password": "password123"
 }
-
+or
 {
   "username": "user",
   "password": "password"
 }
 
-Response:
-
-json
+JsonResponse:
 
 {
   "token": "your-jwt-token"
